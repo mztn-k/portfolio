@@ -37,8 +37,21 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   transition: all 0.3s ease;
+}
+
+.box11{
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #52616B;
+  background-color:rgba(240, 245, 249, 0.85);
+  border-top: solid 1px #52616B;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.box11 p {
+  margin: 0; 
+  padding: 0;
 }
 
 
@@ -263,3 +276,4 @@ header h1 a {
     display: none !important;
   }
 }
+
