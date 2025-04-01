@@ -244,3 +244,32 @@ header h1 a {
 .highlight-char {
   color: #BE3144;
 }
+
+@media (max-width: 720px) {
+  nav ul {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  nav a.custom-btn {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 0 !important;
+    font-size: 0 !important;
+    background-size: 30px 30px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+  }
+
+  nav a[href="works.html"] {
+    background-image: url("works.png") !important;
+  }
+
+  nav a[href="contact.html"] {
+    background-image: url("contact.png") !important;
+  }
+
+  nav a.custom-btn span {
+    display: none !important;
+  }
+}
