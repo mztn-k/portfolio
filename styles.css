@@ -16,7 +16,7 @@ body {
 }
 
 a {
-  color: #82b1ff;
+  color: #1E2022;
   text-decoration: none;
 }
 
@@ -31,7 +31,7 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #1e1e1e;
+  background-color: #C9D6DF;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -43,7 +43,7 @@ header {
 
 header h1 {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #1E2022;
 }
 
 nav ul {
@@ -99,7 +99,7 @@ h2 {
 
 /* フッター */
 footer {
-  background-color: #1a1a1a;
+  background-color: #C9D6DF;
   text-align: center;
   padding: 1rem;
   color: #999;
