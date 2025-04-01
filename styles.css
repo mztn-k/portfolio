@@ -70,19 +70,6 @@ h2 {
   color: #bb86fc;
 }
 
-/* スキルリスト */
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-}
-
-.skills-list li {
-  background-color: #2c2c2c;
-  padding: 0.5rem 1rem;
-  border-radius: 20px;
-}
-
 /* 制作実績 */
 .work-item {
   background-color: #1e1e1e;
@@ -107,7 +94,7 @@ footer {
 }
 
 /* レスポンシブ対応 */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   nav ul {
     flex-direction: column;
     gap: 0.5rem;
