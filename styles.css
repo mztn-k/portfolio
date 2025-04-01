@@ -209,3 +209,41 @@ z-index: -1;
   line-height: 40px;
   white-space: nowrap;
 }
+
+
+nav a.custom-btn {
+  color: #52616B !important;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+}
+nav a.custom-btn:hover {
+  color: #52616B !important;
+  text-decoration: none;
+}
+
+
+nav a.custom-btn {
+  color: #52616B !important;
+  font-size: 1rem;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  padding: 0 25px;
+}
+
+nav a.custom-btn:hover {
+  text-decoration: none;
+  color: #52616B !important;
+}
+
+header h1 a {
+  color: #52616B;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
