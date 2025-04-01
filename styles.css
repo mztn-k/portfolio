@@ -250,5 +250,6 @@ header h1 a {
 
 .logo-img {
   height: 30px;
-  margin-top: 13px;
+  margin-top: 20px;
+  display: block;
 }
