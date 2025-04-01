@@ -1,37 +1,67 @@
 <!DOCTYPE html>
+
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>お問い合わせ | あなたの名前</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>お問い合わせ | あなたの名前</title>
+<link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
-  <header>
-    <h1><a href="index.html">あなたの名前</a></h1>
-    <nav>
-      <ul>
-        <li><a href="about.html">自己紹介</a></li>
-        <li><a href="skills.html">スキル</a></li>
-        <li><a href="works.html">制作実績</a></li>
-        <li><a href="contact.html">お問い合わせ</a></li>
-      </ul>
-    </nav>
-  </header>
+<header>
+<h1><a href="index.html">あなたの名前</a></h1>
+<nav>
+<ul>
 
-  <main>
-    <section>
-      <h2>お問い合わせ</h2>
-      <p>ご連絡は以下よりお願いします。</p>
-      <ul>
-        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-        <li>X（旧Twitter）: <a href="https://x.com/yourhandle" target="_blank">@yourhandle</a></li>
-      </ul>
-    </section>
-  </main>
 
-  <footer>
-    <p>&copy; 2025 あなたの名前</p>
-  </footer>
+<li><a href="works.html">制作実績</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section>
+<h2>お問い合わせ</h2>
+<p>ご連絡は以下よりお願いします。</p>
+<ul>
+<li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+<li>X（旧Twitter）: <a href="https://x.com/yourhandle" target="_blank">@yourhandle</a></li>
+</ul>
+</section>
+</main>
+<footer>
+<p>© 2025 あなたの名前</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script>
+    tsParticles.load("tsparticles", {
+      fullScreen: { enable: true, zIndex: -1 },
+      particles: {
+        number: { value: 60 },
+        color: { value: "#bb86fc" },
+        shape: { type: "circle" },
+        opacity: { value: 0.4 },
+        size: { value: 3 },
+        move: {
+          enable: true,
+          speed: 1,
+          direction: "none",
+          outModes: { default: "bounce" }
+        },
+        links: {
+          enable: true,
+          distance: 150,
+          color: "#bb86fc",
+          opacity: 0.3,
+          width: 1
+        }
+      },
+      background: {
+        color: "#121212"
+      }
+    });
+  </script>
+<div id="tsparticles"></div>
 </body>
 </html>
