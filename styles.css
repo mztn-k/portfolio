@@ -33,7 +33,7 @@ header {
   width: 100%;
   z-index: 1000;
   background-color:rgba(240, 245, 249, 0.85);
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,23 +87,13 @@ h2 {
 
 /* フッター */
 footer {
-  background-color: #C9D6DF;
+  background-color:rgba(240, 245, 249, 0.85);
   text-align: center;
   padding: 1rem;
-  color: #999;
+  color: #52616B;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-/* レスポンシブ対応 */
-@media (max-width: 480px) {
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .skills-list {
-    flex-direction: column;
-  }
-}
 
 /* スクロールアニメーション */
 .fade-init {
