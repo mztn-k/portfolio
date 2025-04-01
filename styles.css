@@ -33,7 +33,7 @@ header {
   width: 100%;
   z-index: 1000;
   background-color:rgba(240, 245, 249, 0.85);
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -246,4 +246,9 @@ header h1 a {
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: bold;
   text-decoration: none;
+}
+
+.logo-img {
+  height: 30px;
+  margin-top: 13px;
 }
