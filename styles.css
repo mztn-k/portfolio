@@ -187,7 +187,7 @@ z-index: -1;
 
 
 .custom-btn {
-  width: 130px;
+  width: 100px;
   height: 40px;
   color: #fff;
   border-radius: 5px;
@@ -250,6 +250,6 @@ header h1 a {
 
 .logo-img {
   height: 30px;
-  margin-top: 20px;
+  margin-top: 0px;
   display: block;
 }
