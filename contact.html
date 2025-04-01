@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>問合せ</title>
+<title>問い合せ</title>
 <link href="styles.css" rel="stylesheet"/>
 </head>
 <body>
@@ -13,9 +13,9 @@
   <nav>
 <ul>
 
-<li><a href="works.html" class="custom-btn btn-16">制作実績</a></li>
-<li><a href="contact.html" class="custom-btn btn-16">問合せ</a></li>
-</ul>
+  <li><a class="custom-btn btn-16" href="works.html"><span class="highlight-char">制</span>作実績</a></li>
+  <li><a class="custom-btn btn-16" href="contact.html"><span class="highlight-char">問</span>い合せ</a></li>
+  </ul>
 </nav>
 </header>
 <main>
@@ -29,38 +29,39 @@
 </section>
 </main>
 <footer>
-<p>© 2025 あなたの名前</p>
+<p>© 2025 Mizutani Kaiji. All rights reserved.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
 <script>
-    tsParticles.load("tsparticles", {
-      fullScreen: { enable: true, zIndex: -1 },
-      particles: {
-        number: { value: 60 },
-        color: { value: "#52616B" },
-        shape: { type: "circle" },
-        opacity: { value: 0.4 },
-        size: { value: 3 },
-        move: {
-          enable: true,
-          speed: 1,
-          direction: "none",
-          outModes: { default: "bounce" }
-        },
-        links: {
-          enable: true,
-          distance: 150,
-          color: "#52616B",
-          opacity: 0.3,
-          width: 1
-        }
+  const isMobile = window.innerWidth <= 768;
+  tsParticles.load("tsparticles", {
+    fullScreen: { enable: true, zIndex: -1 },
+    particles: {
+      number: { value: isMobile ? 80 : 180 },
+      color: { value: ["#BE3144", "#52616B"] },
+      shape: { type: "circle" },
+      opacity: { value: 0.2 },
+      size: { value: 3 },
+      move: {
+        enable: true,
+        speed: 0.3,
+        direction: "none",
+        outModes: { default: "bounce" }
       },
-      background: {
-        color: "#F0F5F9"
+      links: {
+        enable: true,
+        distance: 150,
+        color: "random",
+        opacity: 0.2,
+        width: 1
       }
-    });
-  </script>
+    },
+    background: {
+      color: "#F0F5F9"
+    }
+  });
+</script>
 <div id="tsparticles"></div>
 </body>
 </html>
