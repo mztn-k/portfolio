@@ -40,18 +40,3 @@ window.addEventListener("scroll", () => {
   }
 });
 
-// ナビクリック時にアクティブハイライト
-const navLinks = document.querySelectorAll("nav a");
-window.addEventListener("scroll", () => {
-  let fromTop = window.scrollY;
-  navLinks.forEach(link => {
-    const section = document.querySelector(link.getAttribute("href"));
-    if (
-      section.offsetTop <= fromTop + 100 &&
-      section.offsetTop + section.offsetHeight > fromTop + 100
-    ) {
-      navLinks.forEach(l => l.classList.remove("active"));
-      link.classList.add("active");
-    }
-  });
-});
